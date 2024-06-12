@@ -1,10 +1,14 @@
+import Link from 'next/link'
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-    <main>
-      <div>
-        <h2 className="text-blue-700">Anup</h2>
-      </div>
-    </main>
-  );
+    <div>
+      <h1>Welcome Home!</h1>
+      <Link href="/blog">Blog</Link><br></br>
+      <Link href="/products">Products</Link>
+    </div>
+  )
 }
+
+export default page

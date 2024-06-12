@@ -1,8 +1,9 @@
+import React from 'react'
 
 const loading = () => {
   return (
     <div>
-     <h1>User Page is Loading......</h1>
+      <h1> Loading....... </h1>
     </div>
   )
 }
